@@ -21,6 +21,7 @@ public class Cliente {
     public void depositar(double valor){
         if (valor > 0){
             saldo += valor;
+            System.out.println("Deposito no valor de R$ " + valor + " realizado com sucesso!");
         }else{
             System.out.println("Valor de deposito invalido!");
         }
